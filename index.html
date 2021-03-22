@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Become a QA Automation problemática semanal 06">
+    <meta name="keywords" content="BBC,news,George,Floyd">
     <meta name="author" content="Agustin Carthery"> 
-    <link rel="icon" type="image/jpg" href="/img/icons/bbc-logo.png">
+    <link rel="icon" type="image/jpg" href="/img/firstnews/bbc-logo.png">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Minneapolis to pay George Floyd family $27m - BBC News</title>
 </head>
 <body>
-    <article>
+    <article class="container">
         <header class="article-header">
             <h1>
                 Minneapolis to pay George Floyd family $27m
             </h1>
             <div class="article-datetime">
-                <img src="/img/icons/clock-regular.svg" alt="clock-regular" width="13px" height="13px">
+                <img src="/img/firstnews/clock-regular.svg" alt="clock icon" width="13px" height="13px">
                 <time datetime="2021-03-12">20 hours ago</time>
             </div>
-                <!--non-functional yet due to lack of script function-->
-                <button><img src="/img/icons/share-alt-solid.svg" alt="share" height="20px" width="20px"></button>
-                <a href="https://www.bbc.com/news/topics/cv7wlylxzg1t/george-floyd-death">George Floyd death</a>
-            <hr>
-                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/184B2/production/_117560599_gettyimages-1231630111-1.jpg" 
-                alt="A man walk past the mural of George Floyd"> 
-                <figcaption>George Floyd said he could not breathe more than 20 times before he died</figcaption>
+            <div class="publish-info">
+                <ul>
+                    <li><img id="sharebutton" src="/img/secondnews/share-icon.png" alt="share button" ></li>
+                    <li><a class="button" href="https://www.bbc.com/news/topics/cv7wlylxzg1t/george-floyd-death">
+                        George Floyd death</a></li>
+                </ul>
+            </div>
+                <div class="image-container">
+                    <figure>
+                        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/184B2/production/_117560599_gettyimages-1231630111-1.jpg" 
+                        alt="A man walk past the mural of George Floyd"> 
+                        <figcaption>
+                            George Floyd said he could not breathe more than 20 times before he died
+                        </figcaption>
+                    </figure>
+                </div>    
         </header>
         <section>
             <h2>
@@ -80,8 +91,7 @@
             </p>
         </section>
             <div class="video-container">
-                <iframe width="800" height="530" frameborder="0" 
-                src="https://www.bbc.com/news/av-embeds/56381722/vpid/p08q9g4k"></iframe>
+                <iframe src="https://www.bbc.com/news/av-embeds/56381722/vpid/p08q9g4k"></iframe>
                 <figcaption>George Floyd death: What’s changed?</figcaption>
             </div>
         <section>
@@ -109,32 +119,36 @@
                 were charged with aiding and abetting murder and manslaughter, and will be tried separately later 
                 this year.
             </p>
-        </section>
-    </article>  
+        </section> 
             <hr>
         <footer>
             <h4>
                 Related Topics
             </h4>
-            <div class="related-topics">
-                <ul>
-                    <li><a href="https://www.bbc.com/news/topics/cv7wlylxzg1t/george-floyd-death">George Floyd death</a></li>
-                    <li><a href="https://www.bbc.com/news/topics/cezd9qry7j1t/minneapolis">Minneapolis</a></li>
-                    <li><a href="https://www.bbc.com/news/topics/crr7mlg0dv1t/us-race-relations">US race relations</a></li>
-                </ul>
-            </div>
+                <div class="related-topics">
+                    <ul>
+                        <li><a class="button" href="https://www.bbc.com/news/topics/cv7wlylxzg1t/george-floyd-death">George Floyd death</a></li>
+                        <li><a class="button" href="https://www.bbc.com/news/topics/cezd9qry7j1t/minneapolis">Minneapolis</a></li>
+                        <li><a class="button" href="https://www.bbc.com/news/topics/crr7mlg0dv1t/us-race-relations">US race relations</a></li>
+                    </ul>
+                </div>
             <hr>
-            <h4>
-                More on this story
-            </h4>
-                <a href="https://www.bbc.com/news/world-us-canada-56341895">First jurors chosen for George Floyd case trial</a>
-            <div>
-                <time datetime="2021-03-10">3 days ago</time>
-            </div>
-                <a href="https://www.bbc.com/news/world-us-canada-56324045">The questions used to screen Chauvin trial jurors</a>
-            <div>
-                <time datetime="2021-03-10">3 days ago</time>
+            <div class="more-history">
+                <h4>
+                    More on this story
+                </h4>
+                    <a href="https://www.bbc.com/news/world-us-canada-56341895">First jurors chosen for George Floyd case trial</a>
+                <div>
+                    <time datetime="2021-03-10">3 days ago</time>
+                </div>
+                    <a href="https://www.bbc.com/news/world-us-canada-56324045">The questions used to screen Chauvin trial jurors</a>
+                <div>
+                    <time datetime="2021-03-10">3 days ago</time>
             </div>
         </footer>
+        <div class="bottom-box">
+            <a class="index-navigation" href="/secondnews.html"> Second News </a>
+        </div>     
+    </article>     
 </body>
 </html>
